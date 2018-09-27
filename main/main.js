@@ -1,8 +1,9 @@
 // Write your cade below:
-module.exports = function main() {
-  describe('main()',() => {
+
+const main = require('../main/main');
+
+ describe('main()',() => {
 	  it ('should calculate the remainder', () => {
 		 expect(main(10,4)).toBe(2); 
-	  }); 
-	}); 
+	  });  
 };
